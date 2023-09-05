@@ -31,11 +31,16 @@ table {
 
 nav {
   font-size: 1.6em;
+  grid-auto-flow: column;
 }
 
 #nav {
   text-decoration: none;
-  font-weight: 800;
+  font-weight: 400;
+}
+
+#footer {
+  text-align: center;
 }
 
 a {
@@ -43,10 +48,12 @@ a {
 }
 a:hover{
   color: purple;
+  font-weight: 700;
 }
 
 #active-section {
   color: purple;
+  letter-spacing: -0.5px;
 }
 
 h1 {
